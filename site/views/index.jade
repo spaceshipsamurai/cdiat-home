@@ -1,0 +1,18 @@
+doctype html
+html
+    head
+        title Concordiat - Eve Online
+        include styles
+    body(data-default-background-img="images/cover_bg.jpg", data-overlay="true", data-overlay-opacity="0.35")
+        #outer-container
+            include nav
+            section#main-content.clearfix
+                include lead
+                include about
+                include services
+                include apply
+            seciont#footer
+                #go-to-top(onclick="scroll_to_top();")
+                    span.icon.glyphicon.glyphicon-chevron-up
+
+        include scripts

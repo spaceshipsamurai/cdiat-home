@@ -1,0 +1,22 @@
+{
+  "name": "cdiatcorp",
+  "version": "0.0.0",
+  "authors": [
+    "Russell Durham <rdurham1007@gmail.com>"
+  ],
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-smooth-scroll": "~1.5.5",
+    "fullpage.js": "~2.6.4"
+  }
+}
